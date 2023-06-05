@@ -1,0 +1,80 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.calendario{
+    background-image: url("https://media.istockphoto.com/id/849283076/es/foto/fondo-abstracto-de-color-verde-claro-suave-textura-puede-utilizarse-como-espacio-de-copia-de.jpg?s=170667a&w=0&k=20&c=OKBf6MSLy-vO5IZZc3VFB_2MjZ6Y5Yy7vqiCzxGuSbE=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:150%;
+}
+
+
+  .calendario h3 {
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+  
+  
+  .mes {
+    
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+  }
+
+   .meses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 315px);
+    gap: 1.5rem;
+    justify-content: space-around;
+
+
+
+  }
+  
+  .dias {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  .day-starter2 {
+    grid-column-start: 2;
+  }
+  .day-starter3 {
+    grid-column-start:3 ;
+  }
+  .day-starter4 {
+    grid-column-start: 4;
+  }
+  .day-starter5 {
+    grid-column-start: 5;
+  }
+  .day-starter6 {
+    grid-column-start: 6;
+  }
+  .day-starter7 {
+    grid-column-start:7 ;
+  }
+  .day-header {
+    font-weight: bold;
+  }
+  
+  .day {
+    padding: 5px;
+    
+  }
+@media (max-width:680px){
+
+}
